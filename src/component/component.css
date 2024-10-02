@@ -1,0 +1,53 @@
+.map{
+background-color: yellow;
+height: 90vh;
+width: 100%;
+/* position: relative; */
+}
+
+.footer{
+    position: absolute;
+    bottom: 20px;
+    justify-content: center;
+    width: 100%;
+}
+
+.sidebarin{
+    position: absolute;
+    width: 100%;
+    bottom: 120%;
+    /* left: 20%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+}
+
+.sidebarout{
+    position: absolute;
+    width: 100%;
+    left: -100%;
+    align-items: center;
+    /* background-color: rgb(128, 41, 0); */
+
+}
+
+.box{
+    height: 400px;
+    width: 400px;
+    background-color: blue;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    padding-top: 30px;
+    /* gap: 30px; */
+    /* margin-right: 20px; */
+    span{
+        height: 40px;
+        width: 40px;
+        background-color: red;
+    margin-right: 20px;
+
+    }
+}
